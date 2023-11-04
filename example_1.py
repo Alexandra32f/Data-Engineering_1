@@ -12,6 +12,7 @@ for line in lines:
          .replace('?', '_')
          .replace('.', '_')
          .replace(',', '_')
+         .replace(' ', '_')
          .strip())
   #print(row)
   words = row.split('_')
