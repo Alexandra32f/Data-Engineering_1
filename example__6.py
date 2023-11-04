@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 base_url = 'https://static-basket-01.wb.ru/vol0/data/stores-data.json'
 
-response = requests.get(base_url)
+response = requests.get(base_url, encoding = 'utf-8')
 data = response.json()
 
 #soup = BeautifulSoup('<html><body><table></table></body></html>', 'html.parser')
