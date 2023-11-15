@@ -71,14 +71,14 @@ for cloth in items:
 # # print(len(items))
 # # print(len(filtered_items))
 
-# result = list()
+result = list()
 
 
 
 cloth = df['reviews'].agg(['max', 'min', 'mean', 'median', 'std']).to_dict()
 result.append(cloth)
 
-smart = items['sporty']
+smart = df['sporty']
 f1 = collections.Counter(smart)
 result.append(f1)
 
