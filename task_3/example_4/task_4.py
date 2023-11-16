@@ -52,7 +52,7 @@ items = []
 for i in range(1,100):
   file_name = f'./var_15/{i}.xml'
   result = handle_file(file_name)
-  items.append(result) 
+  items += result 
 
 df = pd.DataFrame(items)
 pd.set_option('display.float_format', '{:.1f}'.format)
