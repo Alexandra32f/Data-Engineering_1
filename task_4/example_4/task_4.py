@@ -78,7 +78,7 @@ def insert_data(conn: sqlite3.Connection, msgpack_data: list[dict])-> None:
     
 db = connect_to_db('four.db')
 create_table(db)
-# insert_data(db, msgpack_data)
+insert_data(db, msgpack_data)
 
 # def load_update(file_name):
 #     items = []
