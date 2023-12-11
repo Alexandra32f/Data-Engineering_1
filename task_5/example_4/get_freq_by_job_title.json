@@ -1,0 +1,498 @@
+[
+    {
+        "_id": "AWS Data Architect",
+        "count": 29
+    },
+    {
+        "_id": "Computer Vision Software Engineer",
+        "count": 145
+    },
+    {
+        "_id": "Research Analyst",
+        "count": 870
+    },
+    {
+        "_id": "ETL Developer",
+        "count": 522
+    },
+    {
+        "_id": "Business Intelligence Developer",
+        "count": 493
+    },
+    {
+        "_id": "Manager Data Management",
+        "count": 29
+    },
+    {
+        "_id": "Data Modeler",
+        "count": 580
+    },
+    {
+        "_id": "Data Operations Engineer",
+        "count": 464
+    },
+    {
+        "_id": "Insight Analyst",
+        "count": 232
+    },
+    {
+        "_id": "Principal Data Architect",
+        "count": 29
+    },
+    {
+        "_id": "Machine Learning Software Engineer",
+        "count": 435
+    },
+    {
+        "_id": "Machine Learning Engineer",
+        "count": 26332
+    },
+    {
+        "_id": "Data Visualization Engineer",
+        "count": 116
+    },
+    {
+        "_id": "Head of Machine Learning",
+        "count": 87
+    },
+    {
+        "_id": "Data Modeller",
+        "count": 58
+    },
+    {
+        "_id": "Marketing Data Analyst",
+        "count": 58
+    },
+    {
+        "_id": "Data Quality Engineer",
+        "count": 87
+    },
+    {
+        "_id": "Data Manager",
+        "count": 3770
+    },
+    {
+        "_id": "AI Architect",
+        "count": 348
+    },
+    {
+        "_id": "Principal Data Engineer",
+        "count": 87
+    },
+    {
+        "_id": "NLP Engineer",
+        "count": 377
+    },
+    {
+        "_id": "Analytics Engineer",
+        "count": 6989
+    },
+    {
+        "_id": "Financial Data Analyst",
+        "count": 116
+    },
+    {
+        "_id": "Data Infrastructure Engineer",
+        "count": 348
+    },
+    {
+        "_id": "Big Data Architect",
+        "count": 58
+    },
+    {
+        "_id": "Data Science Engineer",
+        "count": 348
+    },
+    {
+        "_id": "Data Analytics Specialist",
+        "count": 58
+    },
+    {
+        "_id": "Principal Data Analyst",
+        "count": 58
+    },
+    {
+        "_id": "Machine Learning Researcher",
+        "count": 319
+    },
+    {
+        "_id": "BI Developer",
+        "count": 1450
+    },
+    {
+        "_id": "Product Data Analyst",
+        "count": 174
+    },
+    {
+        "_id": "Data Specialist",
+        "count": 1160
+    },
+    {
+        "_id": "Business Intelligence Analyst",
+        "count": 1392
+    },
+    {
+        "_id": "Staff Data Analyst",
+        "count": 87
+    },
+    {
+        "_id": "Machine Learning Developer",
+        "count": 232
+    },
+    {
+        "_id": "Applied Machine Learning Engineer",
+        "count": 87
+    },
+    {
+        "_id": "Data Analytics Consultant",
+        "count": 58
+    },
+    {
+        "_id": "Machine Learning Specialist",
+        "count": 58
+    },
+    {
+        "_id": "AI Programmer",
+        "count": 174
+    },
+    {
+        "_id": "AI Scientist",
+        "count": 580
+    },
+    {
+        "_id": "Data DevOps Engineer",
+        "count": 29
+    },
+    {
+        "_id": "Business Data Analyst",
+        "count": 580
+    },
+    {
+        "_id": "Staff Machine Learning Engineer",
+        "count": 29
+    },
+    {
+        "_id": "Data Analyst",
+        "count": 38338
+    },
+    {
+        "_id": "Business Intelligence Specialist",
+        "count": 116
+    },
+    {
+        "_id": "Machine Learning Research Engineer",
+        "count": 116
+    },
+    {
+        "_id": "Lead Data Analyst",
+        "count": 145
+    },
+    {
+        "_id": "Head of Data",
+        "count": 899
+    },
+    {
+        "_id": "Lead Data Engineer",
+        "count": 174
+    },
+    {
+        "_id": "Power BI Developer",
+        "count": 29
+    },
+    {
+        "_id": "Staff Data Scientist",
+        "count": 58
+    },
+    {
+        "_id": "Business Intelligence Consultant",
+        "count": 29
+    },
+    {
+        "_id": "Applied Data Scientist",
+        "count": 348
+    },
+    {
+        "_id": "Data Science Lead",
+        "count": 580
+    },
+    {
+        "_id": "Data Science Consultant",
+        "count": 1160
+    },
+    {
+        "_id": "Data Analytics Engineer",
+        "count": 145
+    },
+    {
+        "_id": "Data Management Specialist",
+        "count": 145
+    },
+    {
+        "_id": "Machine Learning Manager",
+        "count": 116
+    },
+    {
+        "_id": "Marketing Data Engineer",
+        "count": 29
+    },
+    {
+        "_id": "Data Integration Engineer",
+        "count": 58
+    },
+    {
+        "_id": "Research Scientist",
+        "count": 7105
+    },
+    {
+        "_id": "Cloud Data Engineer",
+        "count": 116
+    },
+    {
+        "_id": "Compliance Data Analyst",
+        "count": 58
+    },
+    {
+        "_id": "Azure Data Engineer",
+        "count": 58
+    },
+    {
+        "_id": "Data Science Manager",
+        "count": 2668
+    },
+    {
+        "_id": "ETL Engineer",
+        "count": 58
+    },
+    {
+        "_id": "ML Engineer",
+        "count": 2900
+    },
+    {
+        "_id": "Finance Data Analyst",
+        "count": 87
+    },
+    {
+        "_id": "Data Engineer",
+        "count": 59798
+    },
+    {
+        "_id": "Business Intelligence Data Analyst",
+        "count": 58
+    },
+    {
+        "_id": "Head of Data Science",
+        "count": 348
+    },
+    {
+        "_id": "Data Developer",
+        "count": 174
+    },
+    {
+        "_id": "Cloud Data Architect",
+        "count": 29
+    },
+    {
+        "_id": "Research Engineer",
+        "count": 3857
+    },
+    {
+        "_id": "Data Strategist",
+        "count": 522
+    },
+    {
+        "_id": "Deep Learning Engineer",
+        "count": 290
+    },
+    {
+        "_id": "Analytics Engineering Manager",
+        "count": 29
+    },
+    {
+        "_id": "BI Data Analyst",
+        "count": 493
+    },
+    {
+        "_id": "Decision Scientist",
+        "count": 1102
+    },
+    {
+        "_id": "Applied Machine Learning Scientist",
+        "count": 406
+    },
+    {
+        "_id": "Data Science Director",
+        "count": 58
+    },
+    {
+        "_id": "Data Quality Analyst",
+        "count": 522
+    },
+    {
+        "_id": "MLOps Engineer",
+        "count": 261
+    },
+    {
+        "_id": "Managing Director Data Science",
+        "count": 29
+    },
+    {
+        "_id": "Autonomous Vehicle Technician",
+        "count": 58
+    },
+    {
+        "_id": "Consultant Data Engineer",
+        "count": 29
+    },
+    {
+        "_id": "AI Research Engineer",
+        "count": 145
+    },
+    {
+        "_id": "Data Lead",
+        "count": 406
+    },
+    {
+        "_id": "BI Data Engineer",
+        "count": 29
+    },
+    {
+        "_id": "Data Scientist Lead",
+        "count": 58
+    },
+    {
+        "_id": "Data Operations Manager",
+        "count": 58
+    },
+    {
+        "_id": "Big Data Engineer",
+        "count": 290
+    },
+    {
+        "_id": "Data Product Manager",
+        "count": 174
+    },
+    {
+        "_id": "BI Analyst",
+        "count": 667
+    },
+    {
+        "_id": "Principal Data Scientist",
+        "count": 290
+    },
+    {
+        "_id": "Data Operations Specialist",
+        "count": 116
+    },
+    {
+        "_id": "Machine Learning Infrastructure Engineer",
+        "count": 783
+    },
+    {
+        "_id": "Lead Data Scientist",
+        "count": 290
+    },
+    {
+        "_id": "Data Visualization Specialist",
+        "count": 116
+    },
+    {
+        "_id": "Machine Learning Operations Engineer",
+        "count": 29
+    },
+    {
+        "_id": "Data Science Tech Lead",
+        "count": 29
+    },
+    {
+        "_id": "Business Intelligence Engineer",
+        "count": 3886
+    },
+    {
+        "_id": "Software Data Engineer",
+        "count": 87
+    },
+    {
+        "_id": "Business Intelligence Manager",
+        "count": 58
+    },
+    {
+        "_id": "Sales Data Analyst",
+        "count": 29
+    },
+    {
+        "_id": "Data Architect",
+        "count": 5771
+    },
+    {
+        "_id": "Principal Machine Learning Engineer",
+        "count": 87
+    },
+    {
+        "_id": "Data Analytics Manager",
+        "count": 1131
+    },
+    {
+        "_id": "AI Developer",
+        "count": 493
+    },
+    {
+        "_id": "Data Scientist",
+        "count": 53708
+    },
+    {
+        "_id": "Data Operations Analyst",
+        "count": 290
+    },
+    {
+        "_id": "Computer Vision Engineer",
+        "count": 754
+    },
+    {
+        "_id": "Machine Learning Scientist",
+        "count": 2030
+    },
+    {
+        "_id": "Data Integration Specialist",
+        "count": 319
+    },
+    {
+        "_id": "Applied Scientist",
+        "count": 7482
+    },
+    {
+        "_id": "AI Engineer",
+        "count": 899
+    },
+    {
+        "_id": "Data Analytics Lead",
+        "count": 116
+    },
+    {
+        "_id": "Data Strategy Manager",
+        "count": 116
+    },
+    {
+        "_id": "Cloud Database Engineer",
+        "count": 145
+    },
+    {
+        "_id": "Deep Learning Researcher",
+        "count": 29
+    },
+    {
+        "_id": "Director of Data Science",
+        "count": 841
+    },
+    {
+        "_id": "Lead Machine Learning Engineer",
+        "count": 116
+    },
+    {
+        "_id": "Data Visualization Analyst",
+        "count": 58
+    },
+    {
+        "_id": "Data Science Practitioner",
+        "count": 290
+    }
+]
