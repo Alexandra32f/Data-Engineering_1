@@ -1,0 +1,179 @@
+{
+    "file_in_memory_size": "   2924049 KB",
+    "column_stat": [
+        {
+            "column_name": "LOCATION",
+            "memory_abs": 270747,
+            "memory_per": 9.2593,
+            "dtype": "object"
+        },
+        {
+            "column_name": "Crm Cd Desc",
+            "memory_abs": 251321,
+            "memory_per": 8.595,
+            "dtype": "object"
+        },
+        {
+            "column_name": "Date Rptd",
+            "memory_abs": 230938,
+            "memory_per": 7.8979,
+            "dtype": "object"
+        },
+        {
+            "column_name": "DATE OCC",
+            "memory_abs": 230938,
+            "memory_per": 7.8979,
+            "dtype": "object"
+        },
+        {
+            "column_name": "Premis Desc",
+            "memory_abs": 218948,
+            "memory_per": 7.4878,
+            "dtype": "object"
+        },
+        {
+            "column_name": "Status Desc",
+            "memory_abs": 199039,
+            "memory_per": 6.807,
+            "dtype": "object"
+        },
+        {
+            "column_name": "Mocodes",
+            "memory_abs": 194239,
+            "memory_per": 6.6428,
+            "dtype": "object"
+        },
+        {
+            "column_name": "AREA NAME",
+            "memory_abs": 191027,
+            "memory_per": 6.533,
+            "dtype": "object"
+        },
+        {
+            "column_name": "Status",
+            "memory_abs": 172473,
+            "memory_per": 5.8984,
+            "dtype": "object"
+        },
+        {
+            "column_name": "Vict Sex",
+            "memory_abs": 161552,
+            "memory_per": 5.525,
+            "dtype": "object"
+        },
+        {
+            "column_name": "Vict Descent",
+            "memory_abs": 161551,
+            "memory_per": 5.5249,
+            "dtype": "object"
+        },
+        {
+            "column_name": "Weapon Desc",
+            "memory_abs": 151964,
+            "memory_per": 5.1971,
+            "dtype": "object"
+        },
+        {
+            "column_name": "Cross Street",
+            "memory_abs": 115126,
+            "memory_per": 3.9372,
+            "dtype": "object"
+        },
+        {
+            "column_name": "DR_NO",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "TIME OCC",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "AREA ",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "Rpt Dist No",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "Part 1-2",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "Crm Cd",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "Vict Age",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "Premis Cd",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "Weapon Used Cd",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "Crm Cd 1",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "Crm Cd 2",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "Crm Cd 3",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "Crm Cd 4",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "LAT",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "LON",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "AREA",
+            "memory_abs": 23386,
+            "memory_per": 0.7998,
+            "dtype": "float64"
+        }
+    ]
+}
