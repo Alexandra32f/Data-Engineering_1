@@ -1,0 +1,71 @@
+{
+    "file_in_memory_size": "     31588 KB",
+    "column_stat": [
+        {
+            "column_name": "firstSeen",
+            "memory_abs": 8397,
+            "memory_per": 26.584,
+            "dtype": "object"
+        },
+        {
+            "column_name": "brandName",
+            "memory_abs": 8230,
+            "memory_per": 26.0563,
+            "dtype": "object"
+        },
+        {
+            "column_name": "modelName",
+            "memory_abs": 7815,
+            "memory_per": 24.7431,
+            "dtype": "object"
+        },
+        {
+            "column_name": "Unnamed: 0",
+            "memory_abs": 1002,
+            "memory_per": 3.1742,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "askPrice",
+            "memory_abs": 1002,
+            "memory_per": 3.1742,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "vf_Seats",
+            "memory_abs": 1002,
+            "memory_per": 3.1742,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "vf_WheelBaseShort",
+            "memory_abs": 1002,
+            "memory_per": 3.1742,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "vf_WheelSizeRear",
+            "memory_abs": 1002,
+            "memory_per": 3.1742,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "vf_Wheels",
+            "memory_abs": 1002,
+            "memory_per": 3.1742,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "vf_Windows",
+            "memory_abs": 1002,
+            "memory_per": 3.1742,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "isNew",
+            "memory_abs": 125,
+            "memory_per": 0.3968,
+            "dtype": "bool"
+        }
+    ]
+}

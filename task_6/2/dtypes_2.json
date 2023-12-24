@@ -1,0 +1,13 @@
+{
+    "Unnamed: 0": "uint32",
+    "firstSeen": "category",
+    "askPrice": "uint32",
+    "isNew": "bool",
+    "brandName": "object",
+    "modelName": "object",
+    "vf_Seats": "uint8",
+    "vf_WheelBaseShort": "float32",
+    "vf_WheelSizeRear": "uint8",
+    "vf_Wheels": "uint8",
+    "vf_Windows": "uint8"
+}
