@@ -130,14 +130,10 @@ def get_remote_ratio_stat_by_column(collection,column_name):
 def max_salary_by_min_remote_ratio(collection):
     q = [
         {
-            '$group': {
-                '_id' : '$remote_ratio',
-                'max_salary' : {'$max' : '$salary'}}},
-        {
-            '$group' : {
-                '_id' : 'result',
-                'min_remote_ratio' : {'$min' : '$_id'},
-                'max_salary' : {'$max' : '$max_salary'}}}]
+            "$sort":{
+                'age': 1, "salary": -1}},
+        
+                {"$limit": 1}]
     items = []
     for stat in collection.aggregate(q):
         items.append(stat)
@@ -146,14 +142,9 @@ def max_salary_by_min_remote_ratio(collection):
 def min_salary_by_max_remote_ratio(collection):
     q = [
         {
-            '$group': {
-                '_id' : '$remote_ratio',
-                'min_salary' : {'$min' : '$salary'}}},
-        {
-            '$group' : {
-                '_id' : 'result',
-                'max_age' : {'$max' : '$_id'},
-                'min_salary' : {'$min' : '$min_salary'}}}]
+            "$sort":{
+                'age': -1, "salary": 1}},
+                {"$limit": 1}]
     items = []
     for stat in collection.aggregate(q):
         items.append(stat)
