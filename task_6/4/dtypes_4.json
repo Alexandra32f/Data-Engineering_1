@@ -1,0 +1,1 @@
+{"id": "uint32", "schedule_name": "category", "accept_kids": "bool", "address_description": "float32", "employer_name": "category", "address_lng": "float32", "premium": "bool", "billing_type_id": "category", "experience_name": "category", "allow_messages": "bool"}

@@ -1,0 +1,341 @@
+{
+    "file_in_memory_size": "   4450191 KB",
+    "column_stat": [
+        {
+            "column_name": "description",
+            "memory_abs": 2235413,
+            "memory_per": 50.2319,
+            "dtype": "object"
+        },
+        {
+            "column_name": "specializations",
+            "memory_abs": 301473,
+            "memory_per": 6.7744,
+            "dtype": "object"
+        },
+        {
+            "column_name": "terms_found",
+            "memory_abs": 196396,
+            "memory_per": 4.4132,
+            "dtype": "object"
+        },
+        {
+            "column_name": "employer_industries",
+            "memory_abs": 154627,
+            "memory_per": 3.4746,
+            "dtype": "object"
+        },
+        {
+            "column_name": "key_skills",
+            "memory_abs": 109673,
+            "memory_per": 2.4645,
+            "dtype": "object"
+        },
+        {
+            "column_name": "name",
+            "memory_abs": 78280,
+            "memory_per": 1.759,
+            "dtype": "object"
+        },
+        {
+            "column_name": "apply_alternate_url",
+            "memory_abs": 66568,
+            "memory_per": 1.4959,
+            "dtype": "object"
+        },
+        {
+            "column_name": "employment_name",
+            "memory_abs": 65511,
+            "memory_per": 1.4721,
+            "dtype": "object"
+        },
+        {
+            "column_name": "experience_name",
+            "memory_abs": 64003,
+            "memory_per": 1.4382,
+            "dtype": "object"
+        },
+        {
+            "column_name": "schedule_name",
+            "memory_abs": 60717,
+            "memory_per": 1.3644,
+            "dtype": "object"
+        },
+        {
+            "column_name": "employer_vacancies_url",
+            "memory_abs": 58989,
+            "memory_per": 1.3255,
+            "dtype": "object"
+        },
+        {
+            "column_name": "employer_name",
+            "memory_abs": 57997,
+            "memory_per": 1.3032,
+            "dtype": "object"
+        },
+        {
+            "column_name": "billing_type_name",
+            "memory_abs": 57220,
+            "memory_per": 1.2858,
+            "dtype": "object"
+        },
+        {
+            "column_name": "area_name",
+            "memory_abs": 56828,
+            "memory_per": 1.277,
+            "dtype": "object"
+        },
+        {
+            "column_name": "type_name",
+            "memory_abs": 56242,
+            "memory_per": 1.2638,
+            "dtype": "object"
+        },
+        {
+            "column_name": "alternate_url",
+            "memory_abs": 49926,
+            "memory_per": 1.1219,
+            "dtype": "object"
+        },
+        {
+            "column_name": "employer_alternate_url",
+            "memory_abs": 49252,
+            "memory_per": 1.1068,
+            "dtype": "object"
+        },
+        {
+            "column_name": "area_url",
+            "memory_abs": 47584,
+            "memory_per": 1.0693,
+            "dtype": "object"
+        },
+        {
+            "column_name": "created_at",
+            "memory_abs": 46483,
+            "memory_per": 1.0445,
+            "dtype": "object"
+        },
+        {
+            "column_name": "published_at",
+            "memory_abs": 46483,
+            "memory_per": 1.0445,
+            "dtype": "object"
+        },
+        {
+            "column_name": "address_street",
+            "memory_abs": 41871,
+            "memory_per": 0.9409,
+            "dtype": "object"
+        },
+        {
+            "column_name": "experience_id",
+            "memory_abs": 39549,
+            "memory_per": 0.8887,
+            "dtype": "object"
+        },
+        {
+            "column_name": "prof_classes_found",
+            "memory_abs": 37803,
+            "memory_per": 0.8495,
+            "dtype": "object"
+        },
+        {
+            "column_name": "billing_type_id",
+            "memory_abs": 37681,
+            "memory_per": 0.8467,
+            "dtype": "object"
+        },
+        {
+            "column_name": "schedule_id",
+            "memory_abs": 36690,
+            "memory_per": 0.8245,
+            "dtype": "object"
+        },
+        {
+            "column_name": "address_city",
+            "memory_abs": 36446,
+            "memory_per": 0.819,
+            "dtype": "object"
+        },
+        {
+            "column_name": "employment_id",
+            "memory_abs": 35043,
+            "memory_per": 0.7875,
+            "dtype": "object"
+        },
+        {
+            "column_name": "type_id",
+            "memory_abs": 35012,
+            "memory_per": 0.7868,
+            "dtype": "object"
+        },
+        {
+            "column_name": "address_building",
+            "memory_abs": 28703,
+            "memory_per": 0.645,
+            "dtype": "object"
+        },
+        {
+            "column_name": "salary_currency",
+            "memory_abs": 26157,
+            "memory_per": 0.5878,
+            "dtype": "object"
+        },
+        {
+            "column_name": "department_name",
+            "memory_abs": 21653,
+            "memory_per": 0.4866,
+            "dtype": "object"
+        },
+        {
+            "column_name": "employer_trusted",
+            "memory_abs": 20623,
+            "memory_per": 0.4634,
+            "dtype": "object"
+        },
+        {
+            "column_name": "contacts",
+            "memory_abs": 20516,
+            "memory_per": 0.461,
+            "dtype": "object"
+        },
+        {
+            "column_name": "department_id",
+            "memory_abs": 19875,
+            "memory_per": 0.4466,
+            "dtype": "object"
+        },
+        {
+            "column_name": "insider_interview",
+            "memory_abs": 18981,
+            "memory_per": 0.4265,
+            "dtype": "object"
+        },
+        {
+            "column_name": "salary_gross",
+            "memory_abs": 18726,
+            "memory_per": 0.4208,
+            "dtype": "object"
+        },
+        {
+            "column_name": "code",
+            "memory_abs": 18635,
+            "memory_per": 0.4187,
+            "dtype": "object"
+        },
+        {
+            "column_name": "response_url",
+            "memory_abs": 18443,
+            "memory_per": 0.4145,
+            "dtype": "object"
+        },
+        {
+            "column_name": "driver_license_types",
+            "memory_abs": 18408,
+            "memory_per": 0.4137,
+            "dtype": "object"
+        },
+        {
+            "column_name": "test_required",
+            "memory_abs": 18372,
+            "memory_per": 0.4128,
+            "dtype": "object"
+        },
+        {
+            "column_name": "id",
+            "memory_abs": 4590,
+            "memory_per": 0.1032,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "employer_id",
+            "memory_abs": 4590,
+            "memory_per": 0.1032,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "salary_from",
+            "memory_abs": 4590,
+            "memory_per": 0.1032,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "salary_to",
+            "memory_abs": 4590,
+            "memory_per": 0.1032,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "area_id",
+            "memory_abs": 4590,
+            "memory_per": 0.1032,
+            "dtype": "int64"
+        },
+        {
+            "column_name": "address_description",
+            "memory_abs": 4590,
+            "memory_per": 0.1032,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "address_lat",
+            "memory_abs": 4590,
+            "memory_per": 0.1032,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "address_lng",
+            "memory_abs": 4590,
+            "memory_per": 0.1032,
+            "dtype": "float64"
+        },
+        {
+            "column_name": "accept_handicapped",
+            "memory_abs": 573,
+            "memory_per": 0.0129,
+            "dtype": "bool"
+        },
+        {
+            "column_name": "accept_kids",
+            "memory_abs": 573,
+            "memory_per": 0.0129,
+            "dtype": "bool"
+        },
+        {
+            "column_name": "allow_messages",
+            "memory_abs": 573,
+            "memory_per": 0.0129,
+            "dtype": "bool"
+        },
+        {
+            "column_name": "premium",
+            "memory_abs": 573,
+            "memory_per": 0.0129,
+            "dtype": "bool"
+        },
+        {
+            "column_name": "accept_incomplete_resumes",
+            "memory_abs": 573,
+            "memory_per": 0.0129,
+            "dtype": "bool"
+        },
+        {
+            "column_name": "response_letter_required",
+            "memory_abs": 573,
+            "memory_per": 0.0129,
+            "dtype": "bool"
+        },
+        {
+            "column_name": "has_test",
+            "memory_abs": 573,
+            "memory_per": 0.0129,
+            "dtype": "bool"
+        },
+        {
+            "column_name": "archived",
+            "memory_abs": 573,
+            "memory_per": 0.0129,
+            "dtype": "bool"
+        }
+    ]
+}
