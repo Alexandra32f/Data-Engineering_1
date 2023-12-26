@@ -183,45 +183,57 @@ def read_types(file_name):
             dtypes[key] = np.dtype(dtypes[key])
     return dtypes
 
+
+
 need_dtypes = read_types("dtypes_1.json")
 
 dataset = pd.read_csv("df_1.csv",
                   usecols=lambda x: x in need_dtypes.keys(),
-                  dtype=need_column,
-                  parse_dates=['date'])
+                  dtype=need_dtypes)
 dataset.info(memory_usage='deep')
 
 # гистограмма распределение по дням недели
 plt.figure(figsize = (30, 5))
-sort_dow = dataset['day_of_week'].sort_index()
-plot = sort_dow.hist()
-plot.get_figure().savefig('hist.png')
-
 plot_2 = sns.histplot(data=dataset, x="day_of_week", hue="day_of_week", bins=60)
 plot_2.get_figure().savefig('hist_day_of_week.png')
 
-# Столбчатый тип, количества игр по парку
-plot_3 = sns.countplot(x='park_id', data=dataset)
-plt.xlabel('PArk')
-plt.ylabel('Count of game')
-plt.savefig('Count_game_for_park.png')
+#Гистограма частоты длительности матча
+plt.hist(dataset['length_minutes'], bins=100,  edgecolor='black')
+plt.xlabel('length_of_match')
+plt.ylabel('rate')
+plt.savefig('length_of_match.png')
+
+#Взаимосвязь ошибок
+plt.figure(figsize = (10, 5))
+plt.scatter(dataset['h_walks'], dataset['h_errors'], color='blue')
+plt.xlabel('h_walks')
+plt.ylabel('h_errors')
+plt.savefig('v_walks_by_h_errors.png')
 
 #Круговая диаграмма распределения игр
-plot_3 = dataset.groupby(['number_of_game'])['number_of_game'].count()
-circ = plt.pie(plot_3, labels = plot_3.index, autopct='%1.1f%%')
+plt.figure(figsize = (30, 5))
+number_counts = dataset.groupby(['number_of_game'])['number_of_game'].count()
+circ = number_counts[number_counts/number_counts.sum() > 0.05].plot(kind='pie', autopct='%1.1f%%')
 plt.savefig('number_of_game.png')
 
-# Точечная диаграма зависимости продолжительности минут от забивания
-fig, ax = plt.subplots()
-plot_4 = sns.scatterplot(data=dataset, x='v_hits', y='length_minutes')
-plt.savefig("hits_minutes.png")
+#Зависимость количества игр от дня недели
+grouped_data = dataset.groupby('day_of_week')['number_of_game'].mean()
+plt.bar(grouped_data.index, grouped_data)
+plt.xlabel('day_of_week')  
+plt.ylabel('number_of_game')  
+plt.savefig('day_of_week_number_of_game.png')
+
+# Точечная диаграма зависимости ошибок от длительности матча
+plt.figure(figsize = (30, 5))
+plt.scatter(dataset['length_minutes'], dataset['h_errors'])
+plt.xlabel('length_minutes')
+plt.ylabel('h_errors')
+plt.savefig('day_of_week_by_v_score.png')
 
 #Тепловая карта
-num = ['v_hits', 'h_hits', 'h_walks', 'h_errors']
-corr_matrix = dataset[num].corr()
-plot_5 = sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
-plot_5.get_figure().savefig('corr_matrix.png')
-
+plt.figure(figsize=(18, 10))
+sns.heatmap(dataset.select_dtypes(include=[np.number]).corr(), annot=True, cmap="YlGnBu", cbar=False)
+plt.savefig('corr_matrix_1.png')
 
 
 
