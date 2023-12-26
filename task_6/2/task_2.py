@@ -224,21 +224,32 @@ dataset.info(memory_usage='deep')
 #распределения по моделям
 plt.figure(figsize=(8, 6))
 plot = sns.countplot(x='modelName', data=dataset)
+plt.xticks(rotation=45)
 plot.get_figure().savefig('modelName.png')
 
 #распредление по брендовым названиям
-lot = sns.histplot(data=dataset, x="brandName", hue="brandName", bins=60)
-lot.get_figure().savefig('brandName.png')
+plt.figure(figsize=(8, 6))
+dataset['brandName'].value_counts().head(3).plot(kind='bar')
+plt.xlabel('brandName')
+plt.ylabel('Rate')
+plt.xticks(rotation=45)
+plt.savefig('brand_rate.png')
+
+#круговая диаграмма распределения по новизне
+dataset['isNew'].value_counts().plot(kind='pie')
+plt.ylabel('')
+plt.savefig('new_car.png')
 
 #круговая диаграмма распределения по моделям
-tol = dataset.groupby(['modelName'])['modelName'].count()
-circ = plt.pie(tol, labels = tol.index, y=tol.keys(), autopct='%1.1f%%', title='modelName')
-plt.savefig('modelName.png')
-
-#распределние от брендов
-fig, ax = plt.subplots()
-plot_4 = sns.scatterplot(data=dataset, x='brandName', y='vf_WheelBaseShort')
-plt.savefig("ask_brandName.png")
+plt.figure(figsize = (5, 5))
+plot_series = dataset['modelName'].value_counts()
+top_n = 5 
+plot_series = pd.concat([
+    plot_series.head(top_n),
+    pd.Series(plot_series[top_n:].sum(), index = ('other',)) 
+])
+ROUND = plot_series.plot(kind='pie', autopct='%1.1f%%')
+ROUND.get_figure().savefig('modelName.png')
 
 
 
