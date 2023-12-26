@@ -160,24 +160,34 @@ dataset = pd.read_csv("df_5.csv",
 dataset.info(memory_usage='deep')
 
 #1
+#Количество занятых людей
 plt.figure(figsize=(8, 6))
 plot = sns.countplot(x='albedo', data=dataset)
 plot.get_figure().savefig('hist_albedo.png')
 
 # График круговой диаграммы
-plt.figure(figsize=(8, 6))
-plot_2 =  dataset['class'].value_counts().plot(kind='pie', autopct='%1.1f%%')
-plot_2.get_figure().savefig('round_class.png')
+plt.figure(figsize = (5, 5))
+plot_series = dataset['class'].value_counts()
+top_n = 4
+plot_series = pd.concat([
+    plot_series.head(top_n), # берем первые n
+    pd.Series(plot_series[top_n:].sum(), index = ('other',)) # берем остальные как сумму
+])
+ROUND = plot_series.plot(kind='pie', autopct='%1.1f%%')
+ROUND.get_figure().savefig('round_class.png')
 
 # Гистограмма 
-plt.figure(figsize=(8, 6))
-plot_3 = sns.histplot(dataset['class'], bins=20)
-plot_3.get_figure().savefig('class.png')
+dataset.groupby('class')['rms'].mean().plot(kind='line')
+plt.xlabel('class')
+plt.ylabel('rms')
+plt.savefig('rms_by_class.png')
 
-fig, ax = plt.subplots()
-plot_4 = sns.scatterplot(data=dataset, x='class', y='diameter_sigma')
-plt.savefig("diameter_sigma_class.png")
+plt.plot(dataset['diameter'])
+plt.xlabel('rate')
+plt.ylabel('diameter')
+plt.savefig('diameter.png')
 
-plt.figure(figsize=(8, 6))
-plot_5 = sns.heatmap(dataset.corr(), annot=True, cmap='coolwarm')
-plot_5.get_figure().savefig('corr_matrix_5.png')
+#Тепловая карта
+plt.figure(figsize = (5, 5))
+plot = sns.heatmap(dataset.select_dtypes(include=['float','int']).corr(), annot=True, cmap='coolwarm')
+plot.get_figure().savefig('corr_matrix_5.png')
