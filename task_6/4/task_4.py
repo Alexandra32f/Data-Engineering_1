@@ -172,21 +172,34 @@ plt.figure(figsize=(8, 6))
 plot = sns.countplot(x='schedule_name', data=dataset)
 plt.xlabel('Schedule_employment')
 plt.ylabel('Counts_of_people')
+plt.xticks(rotation=45)
 plot.get_figure().savefig('hist_employment.png')
 
 #Количество людей по опыту работы
-plot_2 = sns.histplot(data=dataset, x="experience_name", hue="experience_name", bins=100)
-plot_2.get_figure().savefig('experience_name.png')
+plt.figure(figsize=(18, 18))
+dataset['experience_name'].value_counts().plot(kind='bar')
+plt.xlabel('')
+plt.ylabel('')
+plt.xticks(rotation=45)
+plt.savefig('experience_name.png')
 
 #Круговой график занятости
-plot_3 = dataset.groupby(['schedule_name'])['schedule_name'].count()
-roun = plot_3.plot(kind='pie', autopct='%1.0f%%')
-roun.get_figure().savefig('schedule_name.png')
+plt.figure(figsize = (5, 5))
+plot_series = dataset['schedule_name'].value_counts()
+top_n = 4
+plot_series = pd.concat([
+    plot_series.head(top_n), # берем первые n
+    pd.Series(plot_series[top_n:].sum(), index = ('other',)) # берем остальные как сумму
+])
+ROUND = plot_series.plot(kind='pie', autopct='%1.1f%%')
+ROUND.get_figure().savefig('schedule_name.png')
 
 #
-fig, ax = plt.subplots()
-plot_4 = sns.scatterplot(data=dataset, x='billing_type_id', y='address_lng')
-plt.savefig("billing_type_id_address_lng.png")
+plt.figure(figsize=(14, 12))
+dataset['area_name'].value_counts().head(10).plot(kind='bar')
+plt.xlabel('area_name')
+plt.ylabel('RAte')
+plt.savefig('area_name_rate.png')
 
 #Тепловая карта
 num = ['id', 'accept_kids', 'allow_messages', 'premium']
