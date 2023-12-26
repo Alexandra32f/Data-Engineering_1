@@ -161,13 +161,16 @@ dataset = pd.read_csv("df_6.csv",
 dataset.info(memory_usage='deep')
     
 #1
+# Столбчатый график 
 plt.figure(figsize=(8, 6))
 plot = sns.countplot(x='AREA', data=dataset)
+plt.xticks(rotation=90)
 plot.get_figure().savefig('hist_AREA.png')
 
 # График круговой диаграммы
 plt.figure(figsize=(8, 6))
-plot_2 =  dataset['Status'].value_counts().plot(kind='pie', autopct='%1.1f%%')
+class_counts = dataset['Status'].value_counts()
+plot_2 = class_counts[class_counts/class_counts.sum() > 0.05].plot(kind='pie', autopct='%1.1f%%')
 plot_2.get_figure().savefig('round_Status.png')
 
 # Гистограмма 
@@ -175,12 +178,12 @@ plt.figure(figsize=(8, 6))
 plot_3 = sns.histplot(dataset['Vict Age'], bins=20)
 plot_3.get_figure().savefig('Vict Age.png')
 
-fig, ax = plt.subplots()
-plot_4 = sns.scatterplot(data=dataset, x='TIME OCC', y='Vict Sex')
-plt.savefig("Vict Sex_time.png")
+dataset.groupby('Status')['AREA'].mean().plot(kind='line')
+plt.xlabel('Status')
+plt.ylabel('AREA')
+plt.savefig('Status_AREA.png')
 
 #Тепловая карта
-plt.figure(figsize=(8, 6))
-plot_5 = sns.heatmap(dataset.corr(), annot=True, cmap='coolwarm')
-plot_5.get_figure().savefig('corr_matrix_6.png')
-    
+plt.figure(figsize = (8, 6))
+plot = sns.heatmap(dataset.select_dtypes(include=['float','int']).corr(), cmap='coolwarm')
+plot.get_figure().savefig('corr_matrix_6.png')
